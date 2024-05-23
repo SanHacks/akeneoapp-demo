@@ -30,11 +30,11 @@ final class HomepageController extends AbstractController
     public function __invoke(Request $request): Response
     {
         try {
-//            if (!$this->tokenRepository->hasToken()) {
-//                return new Response(
-//                    file_get_contents($this->projectDir . '/templates/no_access_token.html')
-//                );
-//            }
+            if (!$this->tokenRepository->hasToken()) {
+                return new Response(
+                    file_get_contents($this->projectDir . '/templates/no_access_token.html')
+                );
+            }
 
             $user=null;
             if ($this->openIdAuthentication
