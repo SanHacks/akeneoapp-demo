@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b31ab65d3b11edf0d0ec1f7e5cf1a24a",
+    "content-hash": "375371cce61e2b7fd48fd5c15c35afde",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -5371,6 +5371,51 @@
             "time": "2023-02-14T08:44:56+00:00"
         },
         {
+            "name": "symfony/twig-pack",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/twig-pack.git",
+                "reference": "08a73e833e07921c464336deb7630f93e85ef930"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/twig-pack/zipball/08a73e833e07921c464336deb7630f93e85ef930",
+                "reference": "08a73e833e07921c464336deb7630f93e85ef930",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/twig-bundle": "*",
+                "twig/extra-bundle": "^2.12|^3.0",
+                "twig/twig": "^2.12|^3.0"
+            },
+            "type": "symfony-pack",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Twig pack for Symfony projects",
+            "support": {
+                "issues": "https://github.com/symfony/twig-pack/issues",
+                "source": "https://github.com/symfony/twig-pack/tree/v1.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-19T08:46:41+00:00"
+        },
+        {
             "name": "symfony/validator",
             "version": "v6.2.13",
             "source": {
@@ -5712,6 +5757,80 @@
                 }
             ],
             "time": "2023-02-16T09:57:23+00:00"
+        },
+        {
+            "name": "twig/extra-bundle",
+            "version": "v3.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/twig-extra-bundle.git",
+                "reference": "32807183753de0388c8e59f7ac2d13bb47311140"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/twig-extra-bundle/zipball/32807183753de0388c8e59f7ac2d13bb47311140",
+                "reference": "32807183753de0388c8e59f7ac2d13bb47311140",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/framework-bundle": "^5.4|^6.0|^7.0",
+                "symfony/twig-bundle": "^5.4|^6.0|^7.0",
+                "twig/twig": "^3.0"
+            },
+            "require-dev": {
+                "league/commonmark": "^1.0|^2.0",
+                "symfony/phpunit-bridge": "^6.4|^7.0",
+                "twig/cache-extra": "^3.0",
+                "twig/cssinliner-extra": "^2.12|^3.0",
+                "twig/html-extra": "^2.12|^3.0",
+                "twig/inky-extra": "^2.12|^3.0",
+                "twig/intl-extra": "^2.12|^3.0",
+                "twig/markdown-extra": "^2.12|^3.0",
+                "twig/string-extra": "^2.12|^3.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Twig\\Extra\\TwigExtraBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "A Symfony bundle for extra Twig extensions",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "bundle",
+                "extra",
+                "twig"
+            ],
+            "support": {
+                "source": "https://github.com/twigphp/twig-extra-bundle/tree/v3.8.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-11-21T14:02:01+00:00"
         },
         {
             "name": "twig/twig",
