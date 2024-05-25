@@ -20,6 +20,7 @@ class ArticlesController extends AbstractController
             'Article 5',
             'Article 6'
         ];
+
         $count = count($articles);
 
         return $this->render('articles_list.html.twig', [
